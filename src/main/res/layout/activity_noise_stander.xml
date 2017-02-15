@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_noise_stander"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="zj.qidian.com.doctor.NoiseStander"
+    android:background="@drawable/noisestander_bg"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+
+    <TextView
+        android:layout_marginTop="40dp"
+        android:layout_width="190dp"
+        android:layout_height="36dp"
+        android:id="@+id/currentnoisestander"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:background="@drawable/audio_data_show"
+        android:alpha="0.7"
+        />
+
+        <ImageButton
+    android:layout_marginTop="15dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/startTest"
+    android:layout_gravity="center_horizontal"
+    android:background="@drawable/noise_test_stop"
+    android:onClick="changePlayState"
+    />
+
+    <ImageButton
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sure_to_setting"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/noisetest_selector"
+        />
+
+</LinearLayout>

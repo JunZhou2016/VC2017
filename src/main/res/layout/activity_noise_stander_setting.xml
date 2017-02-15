@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/activity_main"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+tools:context="zj.qidian.com.doctor.NoiseStanderSetting"
+android:background="@drawable/newlockbg"
+    >
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="50dp"
+    >
+
+    <NumberPicker
+        android:id="@+id/suroundparameter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:background="@drawable/lockf"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        >
+    </NumberPicker>
+    <NumberPicker
+        android:id="@+id/suroundparameterf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:gravity="center"
+        android:layout_marginLeft="91dp"
+        >
+    </NumberPicker>
+    <NumberPicker
+        android:id="@+id/suroundparameters"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:gravity="center"
+        android:layout_marginLeft="165dp"
+        >
+    </NumberPicker>
+
+</RelativeLayout>
+<!--显示用户选中的数据-->
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="20dp"
+    android:gravity="center"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:text="当前值为:"
+        android:focusable="false"
+        android:textColor="#f4ecec"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:gravity="center"
+        />
+    <TextView
+        android:id="@+id/shows"
+        android:layout_width="100dp"
+        android:layout_height="36dp"
+        android:focusable="false"
+        android:textColor="#0d0c0c"
+        android:textStyle="bold"
+        android:textSize="16dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:gravity="center"
+        android:background="@drawable/parametershow"
+        />
+</LinearLayout>
+<!--确认设置按钮-->
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="25dp"
+    android:layout_gravity="center"
+    >
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/tosetstander"
+        android:id="@+id/tosetstander"
+        android:layout_gravity="center_horizontal"
+        />
+</LinearLayout>
+</LinearLayout>

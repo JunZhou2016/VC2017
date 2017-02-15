@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+
+	>
+
+	<item
+		android:title="@string/button_color"
+		app:showAsAction="always|withText"
+		></item>
+
+	<item android:title="@string/info"
+		app:showAsAction="always|withText"
+		android:icon="@drawable/menu_icon"
+		>
+		<menu>
+			<!-- 定义一组单选菜单项 -->
+			<group android:checkableBehavior="single">
+				<!-- 定义多个菜单项 -->
+				<item
+					android:icon="@drawable/brown"
+					android:id="@+id/brown"
+					android:title="@string/brown_title"
+					/>
+				<!--<menu>
+					&lt;!&ndash; 定义一组单选菜单项 &ndash;&gt;
+					<group android:checkableBehavior="single">
+						&lt;!&ndash; 定义多个菜单项 &ndash;&gt;
+						<item
+							android:id="@+id/font_10"
+							android:title="@string/font_12"
+							/>
+						<item
+							android:id="@+id/font_21"
+							android:title="@string/font_12"/>
+						<item
+							android:id="@+id/font_31"
+							android:title="@string/font_14"/>
+						<item
+							android:id="@+id/font_41"
+							android:title="@string/font_16"/>
+						<item
+							android:id="@+id/font_51"
+							android:title="@string/font_18"/>
+					</group>
+				</menu>-->
+				<item
+					android:id="@+id/purple"
+					android:title="@string/purple_title"/>
+				<item
+					android:id="@+id/blue"
+					android:title="@string/blue_title"/>
+			</group>
+		</menu>
+	</item>
+</menu>

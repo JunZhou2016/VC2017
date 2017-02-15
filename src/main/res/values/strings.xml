@@ -1,0 +1,15 @@
+<resources>
+    <string name="ipadderss">10.130.162.200</string>
+    <string name="app_name">VCap</string>
+    <string name="action_settings">Settings</string>
+    <string name="blue_title">蓝色</string>
+    <string name="purple_title">紫色</string>
+    <string name="brown_title">棕色</string>
+    <string name="button_color">按钮风格</string>
+    <string name="info">请选择</string>
+    <string name="loading">设备加载中,请做好准备...</string>
+    <string name="main_helper_str">成功登陆后将进入主界面，滑动或者点击系统应用图标将进入侧滑菜单界面。</string>
+    <string name="test_helper_str">用户在使用的过程中对准手机尾部的传感器吹气，手机传感器将采集到数据，同时将引起桌面图标的变化。</string>
+    <string name="result_helper_str">当用户停止吹气的时候，传感器将停止数据采集并将结果显示给用户。</string>
+    <string name="img_helper_fir">此处以OPPO R31S手机为例，传感器的位置为手机底部，形状为原型，使手机型号和厂商有所区别。</string>
+</resources>

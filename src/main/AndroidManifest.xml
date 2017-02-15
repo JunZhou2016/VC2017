@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="zj.qidian.com.doctor">
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <!-- 原来的系统启动图标为newimgs -->
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/finallyicon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:icon="@drawable/newimgs"
+            android:launchMode="singleTask">
+
+            <!--
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            -->
+        </activity>
+        <activity
+            android:name=".WallPaperSetting"
+            android:icon="@drawable/newimgs" />
+        <activity android:name=".Recorder" />
+        <activity
+            android:name=".Interrupt"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".Loading"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".NoiseStander"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".HistoryRecords"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".Login"
+            android:launchMode="singleTask" />
+        <activity android:name=".Developer" />
+        <activity
+            android:name=".Helper"
+            android:launchMode="singleTask" />
+        <activity android:name=".Register" />
+        <activity android:name=".FindPassword" />
+        <activity
+            android:name=".LaunchApp"
+            android:launchMode="singleTask"
+            android:theme="@style/StartAppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".NoiseParameter" />
+        <activity android:name=".NoiseStanderSetting" />
+        <activity
+            android:name=".Alarmer"
+            android:launchMode="singleTask"
+            android:theme="@style/JSAppTheme" />
+        <activity android:name=".YourHealthyIntent" />
+        <activity android:name=".KnowReal" />
+        <activity android:name=".RankDetailShow"></activity>
+    </application>
+
+</manifest>

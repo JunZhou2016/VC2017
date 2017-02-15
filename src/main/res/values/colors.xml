@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorgreen">#101012</color>
+    <color name="colorRed">#399895</color>
+    <color name="colorDefault">#404040</color>
+    <color name="listitemPress">#e1dfd5</color>
+    <color name="warning">#ea140d</color>
+    <drawable name="red">#f00</drawable>
+    <color name="black">#88f1e7e7</color>
+    <color name="nocolor">#968989</color>
+</resources>
