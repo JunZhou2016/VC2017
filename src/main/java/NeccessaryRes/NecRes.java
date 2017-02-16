@@ -14,7 +14,7 @@ public class NecRes {
     //测试git语句;
     public static String change = "PriceTest";
     //测试gitbranch语句;
-    public static String TestString ="gitbranch";
+    public static String TestString ="gitbrancaah";
 
 
 }
